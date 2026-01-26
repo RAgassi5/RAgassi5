@@ -42,7 +42,32 @@
 - Debugging & code analysis  
 
 ---
+## 📂 Projects
+`A small selection of things I’ve been building lately — more experiments coming soon.`
+### 📡 [Computer Networks Hackathon — Client–Server Blackjack](https://github.com/RAgassi5/ComputerNetworking_Hackathon_BlackJack.git)
+**Python · TCP/UDP · Sockets · Binary Protocols**
 
+Built a fully interoperable client–server Blackjack system using low-level network programming.  
+Servers broadcast availability via UDP, clients discover them dynamically, and gameplay runs over TCP using a custom binary protocol.
+
+**Highlights:**
+- UDP-based service discovery
+- Manual binary message encoding/decoding
+- Concurrent multi-client handling
+- Robust error handling and clean protocol design
+---
+### 🔍 [Wikipedia Search Engine](https://github.com/RAgassi5/InformationRetreival_SearchEngine.git)
+**Python · Flask · Information Retrieval · Google Cloud Platform**
+
+Implemented a full-scale search engine over the English Wikipedia corpus and deployed it as a public web service on GCP.  
+The engine combines multiple ranking signals and meets strict performance and quality constraints.
+
+**Highlights:**
+- TF-IDF, title & anchor matching, PageRank, page views
+- Inverted indices stored in cloud storage
+- Evaluated with Precision@5 and F1@30
+- End-to-end cloud deployment
+---
 ## 📂 What You’ll Find Here
 - 📚 University projects from **Software Engineering, Data Structures, and OOP** courses  
 - 🧪 Small experiments and side projects focused on learning and exploration  
